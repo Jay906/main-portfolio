@@ -1,11 +1,7 @@
 import React from "react";
-import { FaPhone } from "react-icons/fa";
+import { FaPhone, FaFacebookF, FaTwitter } from "react-icons/fa";
+import { FiGithub } from "react-icons/fi";
 import { SiGmail } from "react-icons/si";
-import {
-  AiFillGithub,
-  AiFillFacebook,
-  AiFillTwitterCircle,
-} from "react-icons/ai";
 
 function Contacts() {
   return (
@@ -20,16 +16,16 @@ function Contacts() {
           href="https://www.facebook.com/jelaleddin.atalykov"
           className="btn facebook"
         >
-          <AiFillFacebook />
+          <FaFacebookF />
         </a>
         <a href="mailto:atalykovj@gmail.com" className="btn gmail">
           <SiGmail />
         </a>
         <a href="https://twitter.com/Jay03065595" className="btn twitter">
-          <AiFillTwitterCircle />
+          <FaTwitter />
         </a>
         <a href="https://github.com/Jay906" className="btn github">
-          <AiFillGithub />
+          <FiGithub />
         </a>
       </div>
     </footer>

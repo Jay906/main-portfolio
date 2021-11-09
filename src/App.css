@@ -285,6 +285,12 @@ footer a.btn {
   border-radius: 50%;
   text-align: center;
   margin: 0 0.25rem;
+  transition: all 0.3s;
+}
+
+footer a.btn:hover {
+  background: var(--main-white);
+  color: var(--main-black);
 }
 
 @media screen and (min-width: 768px) {
